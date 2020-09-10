@@ -37,7 +37,7 @@ Make a GET request to
 to get a single book by it "publisher" from the database;
 
 Make a GET request to
-``http://localhost:8080/api/v1/books/release_date/:year`
+`http://localhost:8080/api/v1/books/release_date/:year`
 to get a single book by the YEAR of it "release date" from the database;
 
           Update
@@ -53,7 +53,6 @@ Make a DELETE request to
 to get a single book by it "id" from the database and delete it;
 
         Show
-
 
 Make a GET request to
 `http://localhost:8080/api/v1/books/:id`
