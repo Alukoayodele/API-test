@@ -60,5 +60,5 @@ Make a **DELETE** request to
 ### To get a book by _id_
 
 Make a **GET** request to
-``http://localhost:8080/api/v1/books/:id`
+`http://localhost:8080/api/v1/books/:id`
 to get a single book by it "id" from the database
