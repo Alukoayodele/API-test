@@ -1,59 +1,64 @@
-            INSTALLATION
+# Overview
 
-`git clone https://github.com/Alukoayodele/API-test.git`
-`npm install`
-`npm run dev`
+This API was built with NodeJS express framework and meets all the requirements stated in the task document
 
-          USEAGE
+# Getting Started
 
-      Requirements 1
+1. Clone the repository by running the following command
+   ` git clone https://github.com/Alukoayodele/API-test.git`
 
-Make a GET request to
+2. Install npm packages by running
+   `npm install`
+
+3. Start the server by running
+   `npm run dev`
+
+# API Usage
+
+## Requirement 1
+
+To get books from Ice and Fire API (external) by name, make a GET request to
+
 ` http://localhost:8080/api/external-books/:nameOfBook`
 
-      Requirements 2
+## Requirements 2
 
-        Create
+### To create a new resource
 
-Make a POST request to
+Make a **POST** request to
 `http://localhost:8080/api/v1/books`
 
-          Read
+### To get all the books in the database,
 
-Make a GET request to
+make a **GET** request to
 `http://localhost:8080/api/v1/books`
-to get all the books in the database;
 
-Make a GET request to
+### Getting a single book by parameters
+
+To get a single book by it **name** from the database, make a **GET** request to
 `http://localhost:8080/api/v1/books/name/:name`
-to get a single book by it "name" from the database;
 
-Make a GET request to
+To get a single book by the **country** where it was published from the database, make a **GET** request to
 `http://localhost:8080/api/v1/books/country/:country`
-to get a single book by the "country" where it published from the database;
 
-Make a GET request to
+To get a single book by it **publisher** from the database, make a **GET** request to
 `http://localhost:8080/api/v1/books/publisher/:publisher`
-to get a single book by it "publisher" from the database;
 
-Make a GET request to
+To get a single book by the **YEAR** of it **release date** from the database, make a GET request to
 `http://localhost:8080/api/v1/books/release_date/:year`
-to get a single book by the YEAR of it "release date" from the database;
 
-          Update
+### To update a Book
 
-Make a PATCH request to
+Make a **PATCH** request to
 `http://localhost:8080/api/v1/books/:id`
-to get a single book by it "id" from the database and update it;
 
-        Delete
+### To delete a Book
 
-Make a DELETE request to
+Make a **DELETE** request to
 `http://localhost:8080/api/v1/books/:id`
-to get a single book by it "id" from the database and delete it;
 
-        Show
+### To get a book by _id_
 
-Make a GET request to
-`http://localhost:8080/api/v1/books/:id`
-to get a single book by it "id" from the database;
+Make a **GET** request to
+``http://localhost:8080/api/v1/books/:id`
+to get a single book by it "id" from the database
